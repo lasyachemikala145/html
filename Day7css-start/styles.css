@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+     width:900px;
+    background:linear-gradient(to right, #FFF7CD,#FDC3A1,#FB9B8F,#F57799);
+    background-clip: text;
+    color:transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*text-align:center;*/
+    margin:auto;
+   -webkit-text-stroke: 2px rgb(106, 64, 12); 
+}
+h2{
+    background-color: rgb(13, 77, 77);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 5px solid rgb(180, 87, 21) ;
+    border-radius: 20px;
+}
+h3{
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#EDEDCE
+}
+audio{
+    width:100%;
+    box-shadow: 30px 0.01px 25px #296374;
+    border-radius: 40px;
+    height:40px
+}
+img{
+    box-shadow: 30px 5px 50px #296374;
+}
+video{
+    box-shadow: 30px 5px 50px #0a899f;
+
+}
+.da{
+    filter: invert(1) hue-rotate(180deg);
+}
